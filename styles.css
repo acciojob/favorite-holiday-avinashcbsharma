@@ -10,8 +10,7 @@ body{
         }
         p{
             position:relative;
-            top:10px;
-            width:80vw;
+            top:10px;          
             text-align:justify;
             /* text-align-last: justify; */
             font-size:normal;
@@ -25,22 +24,22 @@ body{
             display: flex;
             height: 35vh;
             width: 85vw;
-            justify-content: space-around;
-            padding: 10px;
+            justify-content:space-between ;			
             align-items: center;
         }
         ul,ol{
             background-color: bisque;
             box-shadow: 0px 1px 1px 0px;
-            width: 24vw;
+            width: 35vw;
             border: 1px solid gray;
             border-radius: 8px;
-            
+			height:35vh;
+			
         }
         .oli,.uli{
-            margin-left: 25px;
-            font-family:fantasy;
+            margin-left: 25px;            
             font-size: 13px;
-            line-height:25px ;
-            font-weight: 600;
+            line-height:25px ;            
+			 width:150px
+			
         }
