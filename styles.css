@@ -1,1 +1,46 @@
-/*  your css code here. If applicable */
+body{
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        img{
+            width: 263px;
+            height: 380;
+            opacity:inherit;
+        }
+        p{
+            position:relative;
+            top:10px;
+            width:80vw;
+            text-align:justify;
+            /* text-align-last: justify; */
+            font-size:normal;
+            padding: 20px;
+        }
+        .overview{
+            text-justify:distribute-all-lines;
+            width:90vw;
+        }
+        .Desti{
+            display: flex;
+            height: 35vh;
+            width: 85vw;
+            justify-content: space-around;
+            padding: 10px;
+            align-items: center;
+        }
+        ul,ol{
+            background-color: bisque;
+            box-shadow: 0px 1px 1px 0px;
+            width: 24vw;
+            border: 1px solid gray;
+            border-radius: 8px;
+            
+        }
+        .oli,.uli{
+            margin-left: 25px;
+            font-family:fantasy;
+            font-size: 13px;
+            line-height:25px ;
+            font-weight: 600;
+        }
